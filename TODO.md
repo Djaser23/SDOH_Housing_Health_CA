@@ -38,4 +38,20 @@
   FIPS codes as county identifier
 - Next: open CHR files and begin data inspection
 
+**2026-05-13**
+- Inspected CHR 2024 file: confirmed 6 sheets, selected Select Measure Data 
+  as primary sheet for all three outcome variables and both mediator variables
+- Confirmed variables: Premature Death (YPLL Rate), Preventable Hospital Stays 
+  (Preventable Hospitalization Rate), Poor Mental Health Days (Average Number 
+  of Mentally Unhealthy Days), Low Birthweight, Children in Poverty
+- Confirmed FIPS present, 59 rows (58 counties + 1 state row to drop)
+- Noted: FIPS loads as integer, needs zero-padding to 5 digits in cleaning
+- Noted: small counties (e.g. Alpine) will have suppressed data — handling 
+  strategy TBD
+- Noted: 2016-2019 files are .xls, 2020-2024 are .xlsx — need to account for 
+  in loading loop
+- Resolved kernel mismatch (Anaconda vs system Python)
+- Notebook file moved to correct notebooks/ folder
+- Next: update TODO, commit notebook, then begin CHR loading loop across all years
+
 ---
