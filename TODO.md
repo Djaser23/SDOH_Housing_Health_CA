@@ -54,4 +54,20 @@
 - Notebook file moved to correct notebooks/ folder
 - Next: update TODO, commit notebook, then begin CHR loading loop across all years
 
+
+**2026-05-14**
+- Resolved working directory issue — notebooks run from notebooks/ folder, 
+  requires ../ prefix for all file paths
+- Wrote markdown cells documenting variable selection rationale
+- Confirmed outcome variables: Premature Death (YPLL Rate), Preventable 
+  Hospital Stays (Preventable Hospitalization Rate), Poor Mental Health Days 
+  (Average Number of Mentally Unhealthy Days)
+- Confirmed mediators: Children in Poverty, Low Birthweight
+- Discussed and rejected Life Expectancy as outcome in favor of YPLL
+- Discussed mediation analysis framework — to be implemented after core 
+  regression if time permits
+- Successfully extracted outcome and mediator columns from df_select into 
+  separate dataframes
+- Next: drop state row (FIPS 6000), inspect missingness across outcome 
+  variables, begin loading loop across all years
 ---
