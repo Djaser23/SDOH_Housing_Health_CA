@@ -70,4 +70,14 @@
   separate dataframes
 - Next: drop state row (FIPS 6000), inspect missingness across outcome 
   variables, begin loading loop across all years
+
+
+  **Research Questions for Future Analysis**
+- [ ] Investigate threshold effects in Median Multiple — do poverty rates and 
+  health outcomes accelerate above certain levels (moderately unaffordable >3.0, 
+  seriously unaffordable >4.1, severely unaffordable >5.1)?
+- [ ] Test for nonlinearity in core regression models — if residuals suggest 
+  nonlinear relationship, explore threshold modeling
+- [ ] Consider whether Median Multiple levels predict childhood poverty 
+  nonlinearly — does housing insecurity compound poverty at severe thresholds?
 ---
