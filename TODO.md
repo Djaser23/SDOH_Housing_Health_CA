@@ -80,4 +80,25 @@
   nonlinear relationship, explore threshold modeling
 - [ ] Consider whether Median Multiple levels predict childhood poverty 
   nonlinearly — does housing insecurity compound poverty at severe thresholds?
+
+  **2026-05-15**
+- Installed xlrd for .xls file support via conda
+- Built loop to check sheet names across all years
+- Discovered significant format change: 2016-2023 use 'Ranked Measure Data', 
+  2024 uses 'Select Measure Data' — sheets are not consistent across analysis window
+- Next: open a 2016-2023 file and check whether 'Ranked Measure Data' contains 
+  the same outcome variables (Premature Death YPLL, Preventable Hospital Stays, 
+  Poor Mental Health Days) before building the full loading loop
+
+  **2026-05-15**
+- Built loop to check sheet names across all years — confirmed format change:
+  2016-2023 use 'Ranked Measure Data', 2024 uses 'Select Measure Data'
+- Built loop to check first-level column names across all years
+- Confirmed all three outcome variables present in every year
+- Identified two naming inconsistencies requiring standardization in cleaning:
+  1. Capitalization: 2016-2022 lowercase, 2023-2024 title case
+  2. Second-level column names differ between years (e.g. 'Mentally Unhealthy 
+     Days' vs 'Average Number of Mentally Unhealthy Days')
+- Next: review loop logic, then check second-level column names across years,
+  then begin building the full loading pipeline
 ---
