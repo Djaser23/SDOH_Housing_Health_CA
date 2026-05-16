@@ -101,4 +101,16 @@
      Days' vs 'Average Number of Mentally Unhealthy Days')
 - Next: review loop logic, then check second-level column names across years,
   then begin building the full loading pipeline
+
+  **2026-05-16**
+- Reviewed CHR column name loop logic line by line
+- Confirmed all CHR naming inconsistencies mapped across all years
+- Began ACS inspection: loaded Column-Metadata and Data files for 2024
+- Confirmed target column: 'S1901_C01_012E' (Median Household Income)
+- Confirmed GEO_ID filter for California counties: '0500000US06'
+- Noted suppression codes '(X)' and 'N' require handling in cleaning
+- Noted 2020 ACS gap due to COVID-19 — known limitation
+- Noted Data file uses single-row header unlike CHR
+- Next: inspect Zillow ZHVI file, then notebook 01 is complete and 
+  notebook 02 cleaning pipeline can begin
 ---
