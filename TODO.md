@@ -113,4 +113,17 @@
 - Noted Data file uses single-row header unlike CHR
 - Next: inspect Zillow ZHVI file, then notebook 01 is complete and 
   notebook 02 cleaning pipeline can begin
+
+**2026-05-18**
+- Built complete CHR cleaning pipeline in notebook 02
+- All 9 years loading correctly with right sheet names
+- Standardized first-level column names to title case
+- Mapped and handled second-level naming inconsistencies across years
+- Selected 7 target columns, renamed to consistent standard names
+- Added year column, stacked all years into chr_panel: 522 rows x 8 columns
+- FLAG: Preventable Hospital Stays values differ dramatically between years 
+  (2016 ~35-46 vs 2024 ~1774-3939) — possible methodology/unit change. 
+  Must investigate CHR documentation before analysis.
+- Next: investigate preventable hospital stays unit change, then build 
+  ACS and Zillow cleaning pipelines  
 ---
