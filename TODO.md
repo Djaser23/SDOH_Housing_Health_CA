@@ -126,4 +126,22 @@
   Must investigate CHR documentation before analysis.
 - Next: investigate preventable hospital stays unit change, then build 
   ACS and Zillow cleaning pipelines  
+
+  **2026-05-20**
+- Investigated Preventable Hospital Stays unit change via CHR documentation
+  - 2016-2018: per 1,000 Medicare enrollees
+  - 2019-2024: per 100,000 Medicare enrollees
+  - Correction applied in loop: 2016-2018 values multiplied by 100
+- CHR panel confirmed clean: 522 rows x 8 columns, saved to data/processed/chr_panel.csv
+- Began ACS cleaning pipeline
+- Discovered significant data gap: ACS 1-year estimates only cover 40 of 58 
+  CA counties — 18 rural counties suppressed due to small population
+- Missing counties: Alpine, Amador, Calaveras, Colusa, Del Norte, Glenn, 
+  Inyo, Lassen, Mariposa, Modoc, Mono, Plumas, San Benito, Sierra, 
+  Siskiyou, Tehama, Trinity, Tuolumne
+- Decision: use 5-year ACS estimates as anchor points for missing counties,
+  then interpolate annual values using rural income growth rates from 
+  observed 1-year counties
+- Next: download 5-year ACS files for multiple years covering 2016-2024 
+  window, then build imputation pipeline for 18 missing counties
 ---
