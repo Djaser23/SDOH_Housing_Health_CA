@@ -161,4 +161,16 @@
   - Melted to long format: 522 rows x 4 columns
 - Saved zillow_panel.csv to data/processed/
 - Next: merge all three panels, construct Median Multiple, begin EDA
+
+**2026-05-21**
+- Completed full panel merge: CHR + ACS + Zillow = 522 rows x 12 columns
+- Constructed Median Multiple (median_home_value / median_household_income)
+- Confirmed nulls: 18 premature death (Alpine/Sierra suppression), 
+  40 income/median_multiple (2020 COVID ACS gap — documented, not imputed)
+- Standardized FIPS codes across all three sources to 5-digit zero-padded string
+- Saved full_panel.csv to data/processed/
+- Began notebook 02 cleanup — CHR section commented and summarized
+- Deleted 3 diagnostic cells (LBW check, title case verify, Premature Death check)
+- Next: continue notebook 02 cleanup (ACS, Zillow, merge sections), 
+  then begin notebook 03 EDA and analysis
 ---
