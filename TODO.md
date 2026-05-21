@@ -144,4 +144,21 @@
   observed 1-year counties
 - Next: download 5-year ACS files for multiple years covering 2016-2024 
   window, then build imputation pipeline for 18 missing counties
+
+
+  **2026-05-20**
+- Downloaded 5-year ACS files for 2016-2024 (all 9 years)
+- Verified all 18 missing rural counties present in 5-year files
+- Built complete ACS pipeline combining 1-year (329 rows) and 5-year (153 rows) estimates
+- Added income_source flag ('1yr' or '5yr') for transparency
+- Handled duplicate counties using sort + drop_duplicates to prefer 1-year data
+- Final ACS panel: 482 rows across 8 years (2020 rural only)
+- Saved acs_panel.csv to data/processed/
+- Built complete Zillow pipeline:
+  - Filtered to 58 CA counties
+  - Constructed 5-digit FIPS from StateCodeFIPS + MunicipalCodeFIPS
+  - Collapsed monthly to annual averages
+  - Melted to long format: 522 rows x 4 columns
+- Saved zillow_panel.csv to data/processed/
+- Next: merge all three panels, construct Median Multiple, begin EDA
 ---

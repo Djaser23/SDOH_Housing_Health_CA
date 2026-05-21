@@ -1,0 +1,483 @@
+year,NAME,GEO_ID,S1901_C01_012E,income_source
+2016,"Alameda County, California",0500000US06001,89979,1yr
+2022,"Riverside County, California",0500000US06065,86748,1yr
+2022,"Placer County, California",0500000US06061,105445,1yr
+2022,"Orange County, California",0500000US06059,106209,1yr
+2022,"Nevada County, California",0500000US06057,78401,1yr
+2022,"Napa County, California",0500000US06055,100318,1yr
+2022,"Monterey County, California",0500000US06053,92840,1yr
+2022,"Merced County, California",0500000US06047,66164,1yr
+2022,"Sacramento County, California",0500000US06067,84211,1yr
+2022,"Mendocino County, California",0500000US06045,65520,1yr
+2022,"Madera County, California",0500000US06039,76920,1yr
+2022,"Los Angeles County, California",0500000US06037,82516,1yr
+2022,"Lake County, California",0500000US06033,51259,1yr
+2022,"Kings County, California",0500000US06031,64368,1yr
+2022,"Kern County, California",0500000US06029,66234,1yr
+2022,"Imperial County, California",0500000US06025,57310,1yr
+2022,"Humboldt County, California",0500000US06023,57883,1yr
+2022,"Marin County, California",0500000US06041,136214,1yr
+2022,"San Benito County, California",0500000US06069,111544,1yr
+2022,"San Bernardino County, California",0500000US06071,79091,1yr
+2022,"San Diego County, California",0500000US06073,98928,1yr
+2022,"Yuba County, California",0500000US06115,65052,1yr
+2022,"Yolo County, California",0500000US06113,83875,1yr
+2022,"Ventura County, California",0500000US06111,102569,1yr
+2022,"Tulare County, California",0500000US06107,64722,1yr
+2022,"Tehama County, California",0500000US06103,58884,1yr
+2022,"Sutter County, California",0500000US06101,65018,1yr
+2022,"Stanislaus County, California",0500000US06099,75886,1yr
+2022,"Sonoma County, California",0500000US06097,96830,1yr
+2022,"Solano County, California",0500000US06095,92959,1yr
+2022,"Shasta County, California",0500000US06089,68276,1yr
+2022,"Santa Cruz County, California",0500000US06087,102146,1yr
+2022,"Santa Clara County, California",0500000US06085,150839,1yr
+2022,"Santa Barbara County, California",0500000US06083,90894,1yr
+2022,"San Mateo County, California",0500000US06081,145388,1yr
+2022,"San Luis Obispo County, California",0500000US06079,90216,1yr
+2022,"San Joaquin County, California",0500000US06077,86056,1yr
+2022,"San Francisco County, California",0500000US06075,136692,1yr
+2022,"Fresno County, California",0500000US06019,69571,1yr
+2023,"Butte County, California",0500000US06007,63222,1yr
+2022,"El Dorado County, California",0500000US06017,105982,1yr
+2022,"Butte County, California",0500000US06007,64426,1yr
+2021,"Sacramento County, California",0500000US06067,80063,1yr
+2021,"Riverside County, California",0500000US06065,79024,1yr
+2021,"Placer County, California",0500000US06061,103659,1yr
+2021,"Orange County, California",0500000US06059,100559,1yr
+2021,"Nevada County, California",0500000US06057,79519,1yr
+2021,"Napa County, California",0500000US06055,97213,1yr
+2021,"Monterey County, California",0500000US06053,82163,1yr
+2021,"San Benito County, California",0500000US06069,101923,1yr
+2021,"Merced County, California",0500000US06047,53992,1yr
+2021,"Marin County, California",0500000US06041,118209,1yr
+2021,"Madera County, California",0500000US06039,63454,1yr
+2021,"Los Angeles County, California",0500000US06037,77456,1yr
+2021,"Lake County, California",0500000US06033,61221,1yr
+2021,"Kings County, California",0500000US06031,62155,1yr
+2021,"Kern County, California",0500000US06029,58217,1yr
+2021,"Imperial County, California",0500000US06025,51809,1yr
+2021,"Mendocino County, California",0500000US06045,59444,1yr
+2021,"San Bernardino County, California",0500000US06071,74846,1yr
+2021,"San Diego County, California",0500000US06073,91003,1yr
+2021,"San Francisco County, California",0500000US06075,121826,1yr
+2022,"Alameda County, California",0500000US06001,122159,1yr
+2021,"Yuba County, California",0500000US06115,63303,1yr
+2021,"Yolo County, California",0500000US06113,78146,1yr
+2021,"Ventura County, California",0500000US06111,96454,1yr
+2021,"Tulare County, California",0500000US06107,58209,1yr
+2021,"Tehama County, California",0500000US06103,48810,1yr
+2021,"Sutter County, California",0500000US06101,64251,1yr
+2021,"Stanislaus County, California",0500000US06099,73982,1yr
+2021,"Sonoma County, California",0500000US06097,94295,1yr
+2021,"Solano County, California",0500000US06095,87770,1yr
+2021,"Shasta County, California",0500000US06089,61125,1yr
+2021,"Santa Cruz County, California",0500000US06087,93933,1yr
+2021,"Santa Clara County, California",0500000US06085,141562,1yr
+2021,"Santa Barbara County, California",0500000US06083,84846,1yr
+2021,"San Mateo County, California",0500000US06081,131796,1yr
+2021,"San Luis Obispo County, California",0500000US06079,80615,1yr
+2021,"San Joaquin County, California",0500000US06077,80681,1yr
+2022,"Contra Costa County, California",0500000US06013,120061,1yr
+2023,"Contra Costa County, California",0500000US06013,122794,1yr
+2023,"El Dorado County, California",0500000US06017,108594,1yr
+2023,"Fresno County, California",0500000US06019,71689,1yr
+2024,"Riverside County, California",0500000US06065,93172,1yr
+2024,"Placer County, California",0500000US06061,115442,1yr
+2024,"Orange County, California",0500000US06059,115229,1yr
+2024,"Nevada County, California",0500000US06057,103703,1yr
+2024,"Napa County, California",0500000US06055,122754,1yr
+2024,"Monterey County, California",0500000US06053,93290,1yr
+2024,"Merced County, California",0500000US06047,64980,1yr
+2024,"Sacramento County, California",0500000US06067,94087,1yr
+2024,"Mendocino County, California",0500000US06045,69264,1yr
+2024,"Madera County, California",0500000US06039,72125,1yr
+2024,"Los Angeles County, California",0500000US06037,90845,1yr
+2024,"Lake County, California",0500000US06033,51434,1yr
+2024,"Kings County, California",0500000US06031,73954,1yr
+2024,"Kern County, California",0500000US06029,71596,1yr
+2024,"Imperial County, California",0500000US06025,60749,1yr
+2024,"Humboldt County, California",0500000US06023,58124,1yr
+2024,"Marin County, California",0500000US06041,147017,1yr
+2024,"San Benito County, California",0500000US06069,114011,1yr
+2024,"San Bernardino County, California",0500000US06071,88294,1yr
+2024,"San Diego County, California",0500000US06073,109132,1yr
+2024,"Yuba County, California",0500000US06115,80550,1yr
+2024,"Yolo County, California",0500000US06113,88849,1yr
+2024,"Ventura County, California",0500000US06111,114238,1yr
+2024,"Tulare County, California",0500000US06107,69880,1yr
+2024,"Tehama County, California",0500000US06103,61309,1yr
+2024,"Sutter County, California",0500000US06101,82364,1yr
+2024,"Stanislaus County, California",0500000US06099,78673,1yr
+2024,"Sonoma County, California",0500000US06097,107274,1yr
+2024,"Solano County, California",0500000US06095,94930,1yr
+2024,"Shasta County, California",0500000US06089,71140,1yr
+2024,"Santa Cruz County, California",0500000US06087,107893,1yr
+2024,"Santa Clara County, California",0500000US06085,168154,1yr
+2024,"Santa Barbara County, California",0500000US06083,95637,1yr
+2024,"San Mateo County, California",0500000US06081,160733,1yr
+2024,"San Luis Obispo County, California",0500000US06079,100724,1yr
+2024,"San Joaquin County, California",0500000US06077,93038,1yr
+2024,"San Francisco County, California",0500000US06075,139801,1yr
+2024,"Fresno County, California",0500000US06019,75585,1yr
+2024,"El Dorado County, California",0500000US06017,109552,1yr
+2024,"Contra Costa County, California",0500000US06013,127221,1yr
+2024,"Butte County, California",0500000US06007,65221,1yr
+2023,"Sacramento County, California",0500000US06067,90252,1yr
+2023,"Riverside County, California",0500000US06065,90527,1yr
+2023,"Placer County, California",0500000US06061,109713,1yr
+2023,"Orange County, California",0500000US06059,110042,1yr
+2023,"Nevada County, California",0500000US06057,87998,1yr
+2023,"Napa County, California",0500000US06055,104686,1yr
+2023,"Monterey County, California",0500000US06053,88035,1yr
+2023,"Merced County, California",0500000US06047,57570,1yr
+2023,"Mendocino County, California",0500000US06045,67454,1yr
+2023,"Marin County, California",0500000US06041,139644,1yr
+2023,"Madera County, California",0500000US06039,66553,1yr
+2023,"Los Angeles County, California",0500000US06037,86587,1yr
+2023,"Lake County, California",0500000US06033,59444,1yr
+2023,"Kings County, California",0500000US06031,66429,1yr
+2023,"Kern County, California",0500000US06029,68893,1yr
+2023,"Imperial County, California",0500000US06025,60243,1yr
+2023,"Humboldt County, California",0500000US06023,61621,1yr
+2023,"San Benito County, California",0500000US06069,107324,1yr
+2021,"Humboldt County, California",0500000US06023,54752,1yr
+2023,"San Bernardino County, California",0500000US06071,85069,1yr
+2023,"San Francisco County, California",0500000US06075,126730,1yr
+2024,"Alameda County, California",0500000US06001,129130,1yr
+2023,"Yuba County, California",0500000US06115,80396,1yr
+2023,"Yolo County, California",0500000US06113,93203,1yr
+2023,"Ventura County, California",0500000US06111,107667,1yr
+2023,"Tulare County, California",0500000US06107,73097,1yr
+2023,"Tehama County, California",0500000US06103,55128,1yr
+2023,"Sutter County, California",0500000US06101,74727,1yr
+2023,"Stanislaus County, California",0500000US06099,82758,1yr
+2023,"Sonoma County, California",0500000US06097,100707,1yr
+2023,"Solano County, California",0500000US06095,100027,1yr
+2023,"Shasta County, California",0500000US06089,75949,1yr
+2023,"Santa Cruz County, California",0500000US06087,105631,1yr
+2023,"Santa Clara County, California",0500000US06085,154954,1yr
+2023,"Santa Barbara County, California",0500000US06083,91197,1yr
+2023,"San Mateo County, California",0500000US06081,151485,1yr
+2023,"San Luis Obispo County, California",0500000US06079,90670,1yr
+2023,"San Joaquin County, California",0500000US06077,87418,1yr
+2023,"San Diego County, California",0500000US06073,103674,1yr
+2021,"Fresno County, California",0500000US06019,63656,1yr
+2023,"Alameda County, California",0500000US06001,119931,1yr
+2021,"Contra Costa County, California",0500000US06013,111080,1yr
+2017,"Orange County, California",0500000US06059,86217,1yr
+2017,"Nevada County, California",0500000US06057,65385,1yr
+2017,"Napa County, California",0500000US06055,86562,1yr
+2017,"Monterey County, California",0500000US06053,71274,1yr
+2017,"Merced County, California",0500000US06047,47735,1yr
+2017,"Mendocino County, California",0500000US06045,53024,1yr
+2017,"Marin County, California",0500000US06041,113908,1yr
+2017,"Placer County, California",0500000US06061,80728,1yr
+2017,"Madera County, California",0500000US06039,51283,1yr
+2017,"Lake County, California",0500000US06033,48930,1yr
+2017,"Kings County, California",0500000US06031,57555,1yr
+2017,"Kern County, California",0500000US06029,49854,1yr
+2017,"Imperial County, California",0500000US06025,47211,1yr
+2017,"Humboldt County, California",0500000US06023,46494,1yr
+2017,"Fresno County, California",0500000US06019,51800,1yr
+2017,"El Dorado County, California",0500000US06017,79414,1yr
+2017,"Los Angeles County, California",0500000US06037,65006,1yr
+2017,"Riverside County, California",0500000US06065,63944,1yr
+2017,"Sacramento County, California",0500000US06067,63045,1yr
+2017,"San Bernardino County, California",0500000US06071,60420,1yr
+2017,"Yuba County, California",0500000US06115,63120,1yr
+2017,"Yolo County, California",0500000US06113,65729,1yr
+2017,"Ventura County, California",0500000US06111,82857,1yr
+2017,"Tulare County, California",0500000US06107,46266,1yr
+2017,"Sutter County, California",0500000US06101,55062,1yr
+2017,"Stanislaus County, California",0500000US06099,59514,1yr
+2017,"Sonoma County, California",0500000US06097,80409,1yr
+2017,"Solano County, California",0500000US06095,77133,1yr
+2017,"Shasta County, California",0500000US06089,52439,1yr
+2017,"Santa Cruz County, California",0500000US06087,79705,1yr
+2017,"Santa Clara County, California",0500000US06085,119035,1yr
+2017,"Santa Barbara County, California",0500000US06083,71106,1yr
+2017,"San Mateo County, California",0500000US06081,116653,1yr
+2017,"San Luis Obispo County, California",0500000US06079,71880,1yr
+2017,"San Joaquin County, California",0500000US06077,61164,1yr
+2017,"San Francisco County, California",0500000US06075,110816,1yr
+2017,"San Diego County, California",0500000US06073,76207,1yr
+2017,"Contra Costa County, California",0500000US06013,95339,1yr
+2017,"Butte County, California",0500000US06007,49061,1yr
+2017,"Alameda County, California",0500000US06001,96296,1yr
+2016,"Yuba County, California",0500000US06115,49259,1yr
+2016,"Nevada County, California",0500000US06057,59022,1yr
+2016,"Napa County, California",0500000US06055,75077,1yr
+2016,"Monterey County, California",0500000US06053,63876,1yr
+2016,"Merced County, California",0500000US06047,47739,1yr
+2016,"Mendocino County, California",0500000US06045,43809,1yr
+2016,"Marin County, California",0500000US06041,103845,1yr
+2016,"Madera County, California",0500000US06039,51657,1yr
+2016,"Los Angeles County, California",0500000US06037,61338,1yr
+2016,"Lake County, California",0500000US06033,42029,1yr
+2016,"Kings County, California",0500000US06031,53234,1yr
+2016,"Kern County, California",0500000US06029,49903,1yr
+2016,"Imperial County, California",0500000US06025,49095,1yr
+2016,"Humboldt County, California",0500000US06023,43130,1yr
+2016,"Fresno County, California",0500000US06019,48715,1yr
+2016,"El Dorado County, California",0500000US06017,75772,1yr
+2021,"El Dorado County, California",0500000US06017,87491,1yr
+2016,"Butte County, California",0500000US06007,45177,1yr
+2016,"Orange County, California",0500000US06059,81837,1yr
+2018,"Alameda County, California",0500000US06001,102125,1yr
+2016,"Placer County, California",0500000US06061,85426,1yr
+2016,"Sacramento County, California",0500000US06067,59780,1yr
+2016,"Yolo County, California",0500000US06113,64904,1yr
+2016,"Ventura County, California",0500000US06111,80135,1yr
+2016,"Tulare County, California",0500000US06107,45881,1yr
+2016,"Sutter County, California",0500000US06101,51397,1yr
+2016,"Stanislaus County, California",0500000US06099,54305,1yr
+2016,"Sonoma County, California",0500000US06097,73929,1yr
+2016,"Solano County, California",0500000US06095,73900,1yr
+2016,"Shasta County, California",0500000US06089,46724,1yr
+2016,"Santa Cruz County, California",0500000US06087,77613,1yr
+2016,"Santa Clara County, California",0500000US06085,111069,1yr
+2016,"Santa Barbara County, California",0500000US06083,67436,1yr
+2016,"San Mateo County, California",0500000US06081,108627,1yr
+2016,"San Luis Obispo County, California",0500000US06079,70564,1yr
+2016,"San Joaquin County, California",0500000US06077,59518,1yr
+2016,"San Francisco County, California",0500000US06075,103801,1yr
+2016,"San Diego County, California",0500000US06073,70824,1yr
+2016,"San Bernardino County, California",0500000US06071,56337,1yr
+2016,"Riverside County, California",0500000US06065,60134,1yr
+2018,"Butte County, California",0500000US06007,51652,1yr
+2016,"Contra Costa County, California",0500000US06013,91045,1yr
+2018,"El Dorado County, California",0500000US06017,82742,1yr
+2019,"Sacramento County, California",0500000US06067,72017,1yr
+2019,"Riverside County, California",0500000US06065,73260,1yr
+2019,"Placer County, California",0500000US06061,97723,1yr
+2019,"Orange County, California",0500000US06059,95934,1yr
+2019,"Nevada County, California",0500000US06057,68818,1yr
+2019,"Napa County, California",0500000US06055,92769,1yr
+2019,"Monterey County, California",0500000US06053,77514,1yr
+2019,"Merced County, California",0500000US06047,61167,1yr
+2019,"Mendocino County, California",0500000US06045,51744,1yr
+2019,"Marin County, California",0500000US06041,110843,1yr
+2019,"Madera County, California",0500000US06039,64827,1yr
+2019,"Los Angeles County, California",0500000US06037,72797,1yr
+2019,"Lake County, California",0500000US06033,47138,1yr
+2019,"Kings County, California",0500000US06031,58453,1yr
+2019,"Kern County, California",0500000US06029,53067,1yr
+2019,"Imperial County, California",0500000US06025,48472,1yr
+2019,"Humboldt County, California",0500000US06023,51662,1yr
+2019,"San Bernardino County, California",0500000US06071,67903,1yr
+2019,"Fresno County, California",0500000US06019,57518,1yr
+2019,"San Diego County, California",0500000US06073,83985,1yr
+2019,"San Joaquin County, California",0500000US06077,68997,1yr
+2018,"Contra Costa County, California",0500000US06013,101618,1yr
+2021,"Alameda County, California",0500000US06001,109729,1yr
+2019,"Yuba County, California",0500000US06115,58765,1yr
+2019,"Yolo County, California",0500000US06113,71417,1yr
+2019,"Ventura County, California",0500000US06111,92236,1yr
+2019,"Tulare County, California",0500000US06107,57692,1yr
+2019,"Tehama County, California",0500000US06103,53475,1yr
+2019,"Sutter County, California",0500000US06101,62777,1yr
+2019,"Stanislaus County, California",0500000US06099,63037,1yr
+2019,"Sonoma County, California",0500000US06097,87828,1yr
+2019,"Solano County, California",0500000US06095,86652,1yr
+2019,"Shasta County, California",0500000US06089,63091,1yr
+2019,"Santa Cruz County, California",0500000US06087,89269,1yr
+2019,"Santa Clara County, California",0500000US06085,133076,1yr
+2019,"Santa Barbara County, California",0500000US06083,75653,1yr
+2019,"San Mateo County, California",0500000US06081,138500,1yr
+2019,"San Luis Obispo County, California",0500000US06079,77265,1yr
+2019,"San Francisco County, California",0500000US06075,123859,1yr
+2019,"El Dorado County, California",0500000US06017,87059,1yr
+2021,"Butte County, California",0500000US06007,64738,1yr
+2019,"Butte County, California",0500000US06007,62563,1yr
+2018,"Placer County, California",0500000US06061,88592,1yr
+2018,"Orange County, California",0500000US06059,89759,1yr
+2018,"Nevada County, California",0500000US06057,66299,1yr
+2018,"Napa County, California",0500000US06055,87025,1yr
+2018,"Monterey County, California",0500000US06053,70681,1yr
+2018,"Merced County, California",0500000US06047,57745,1yr
+2018,"Marin County, California",0500000US06041,126373,1yr
+2018,"Riverside County, California",0500000US06065,66964,1yr
+2018,"Madera County, California",0500000US06039,56305,1yr
+2018,"Lake County, California",0500000US06033,48554,1yr
+2018,"Kings County, California",0500000US06031,61663,1yr
+2018,"Kern County, California",0500000US06029,51579,1yr
+2018,"Imperial County, California",0500000US06025,48984,1yr
+2018,"Humboldt County, California",0500000US06023,50294,1yr
+2018,"Fresno County, California",0500000US06019,52629,1yr
+2019,"Contra Costa County, California",0500000US06013,107135,1yr
+2018,"Los Angeles County, California",0500000US06037,68093,1yr
+2018,"Sacramento County, California",0500000US06067,69767,1yr
+2018,"Mendocino County, California",0500000US06045,51830,1yr
+2018,"San Diego County, California",0500000US06073,79079,1yr
+2018,"San Bernardino County, California",0500000US06071,63857,1yr
+2018,"Yuba County, California",0500000US06115,46574,1yr
+2018,"Yolo County, California",0500000US06113,68670,1yr
+2018,"Ventura County, California",0500000US06111,84566,1yr
+2018,"Tulare County, California",0500000US06107,48817,1yr
+2018,"Sutter County, California",0500000US06101,59121,1yr
+2018,"Sonoma County, California",0500000US06097,81395,1yr
+2018,"Solano County, California",0500000US06095,84395,1yr
+2018,"Stanislaus County, California",0500000US06099,60321,1yr
+2019,"Alameda County, California",0500000US06001,108322,1yr
+2018,"Santa Cruz County, California",0500000US06087,86941,1yr
+2018,"Santa Clara County, California",0500000US06085,126606,1yr
+2018,"Santa Barbara County, California",0500000US06083,77472,1yr
+2018,"San Mateo County, California",0500000US06081,124425,1yr
+2018,"San Luis Obispo County, California",0500000US06079,71148,1yr
+2018,"San Joaquin County, California",0500000US06077,64119,1yr
+2018,"San Francisco County, California",0500000US06075,112376,1yr
+2018,"Shasta County, California",0500000US06089,56280,1yr
+2022,"Alpine County, California",0500000US06003,101125,5yr
+2021,"Sierra County, California",0500000US06091,56152,5yr
+2021,"Siskiyou County, California",0500000US06093,49857,5yr
+2021,"Trinity County, California",0500000US06105,42206,5yr
+2021,"Tuolumne County, California",0500000US06109,66846,5yr
+2022,"Amador County, California",0500000US06005,74853,5yr
+2022,"Mono County, California",0500000US06051,82038,5yr
+2022,"Colusa County, California",0500000US06011,69619,5yr
+2022,"Del Norte County, California",0500000US06015,61149,5yr
+2022,"Glenn County, California",0500000US06021,64033,5yr
+2022,"Inyo County, California",0500000US06027,63417,5yr
+2022,"Lassen County, California",0500000US06035,59515,5yr
+2022,"Mariposa County, California",0500000US06043,60021,5yr
+2022,"Modoc County, California",0500000US06049,54962,5yr
+2022,"Calaveras County, California",0500000US06009,77526,5yr
+2021,"Plumas County, California",0500000US06063,57885,5yr
+2020,"Mono County, California",0500000US06051,64924,5yr
+2021,"Modoc County, California",0500000US06049,51090,5yr
+2020,"Plumas County, California",0500000US06063,57233,5yr
+2020,"San Benito County, California",0500000US06069,85808,5yr
+2020,"Sierra County, California",0500000US06091,52103,5yr
+2020,"Siskiyou County, California",0500000US06093,47403,5yr
+2020,"Tehama County, California",0500000US06103,48895,5yr
+2020,"Trinity County, California",0500000US06105,41780,5yr
+2020,"Tuolumne County, California",0500000US06109,60509,5yr
+2021,"Alpine County, California",0500000US06003,96000,5yr
+2021,"Amador County, California",0500000US06005,69955,5yr
+2021,"Calaveras County, California",0500000US06009,70119,5yr
+2021,"Colusa County, California",0500000US06011,61861,5yr
+2021,"Del Norte County, California",0500000US06015,53280,5yr
+2021,"Glenn County, California",0500000US06021,56332,5yr
+2021,"Inyo County, California",0500000US06027,60925,5yr
+2021,"Lassen County, California",0500000US06035,59292,5yr
+2021,"Mariposa County, California",0500000US06043,53304,5yr
+2021,"Mono County, California",0500000US06051,71138,5yr
+2022,"Plumas County, California",0500000US06063,67885,5yr
+2022,"Sierra County, California",0500000US06091,61108,5yr
+2024,"Alpine County, California",0500000US06003,105521,5yr
+2024,"Amador County, California",0500000US06005,88044,5yr
+2024,"Calaveras County, California",0500000US06009,78647,5yr
+2024,"Colusa County, California",0500000US06011,75672,5yr
+2024,"Del Norte County, California",0500000US06015,67058,5yr
+2024,"Glenn County, California",0500000US06021,67139,5yr
+2024,"Inyo County, California",0500000US06027,73991,5yr
+2023,"Tuolumne County, California",0500000US06109,72259,5yr
+2024,"Lassen County, California",0500000US06035,67403,5yr
+2024,"Modoc County, California",0500000US06049,59455,5yr
+2024,"Mono County, California",0500000US06051,99415,5yr
+2024,"Plumas County, California",0500000US06063,66031,5yr
+2024,"Sierra County, California",0500000US06091,63355,5yr
+2024,"Siskiyou County, California",0500000US06093,59095,5yr
+2020,"Modoc County, California",0500000US06049,51250,5yr
+2024,"Mariposa County, California",0500000US06043,68412,5yr
+2023,"Trinity County, California",0500000US06105,53498,5yr
+2023,"Siskiyou County, California",0500000US06093,55499,5yr
+2022,"Siskiyou County, California",0500000US06093,53898,5yr
+2022,"Trinity County, California",0500000US06105,47317,5yr
+2022,"Tuolumne County, California",0500000US06109,70432,5yr
+2023,"Alpine County, California",0500000US06003,110781,5yr
+2023,"Amador County, California",0500000US06005,81526,5yr
+2023,"Calaveras County, California",0500000US06009,79877,5yr
+2023,"Colusa County, California",0500000US06011,75149,5yr
+2023,"Del Norte County, California",0500000US06015,66780,5yr
+2023,"Glenn County, California",0500000US06021,70487,5yr
+2023,"Inyo County, California",0500000US06027,72432,5yr
+2023,"Lassen County, California",0500000US06035,64395,5yr
+2023,"Mariposa County, California",0500000US06043,65378,5yr
+2023,"Modoc County, California",0500000US06049,56648,5yr
+2023,"Mono County, California",0500000US06051,86953,5yr
+2023,"Plumas County, California",0500000US06063,64946,5yr
+2023,"Sierra County, California",0500000US06091,60000,5yr
+2020,"Mariposa County, California",0500000US06043,50960,5yr
+2018,"Del Norte County, California",0500000US06015,45258,5yr
+2020,"Inyo County, California",0500000US06027,59296,5yr
+2017,"Calaveras County, California",0500000US06009,54800,5yr
+2017,"Colusa County, California",0500000US06011,56481,5yr
+2017,"Del Norte County, California",0500000US06015,41287,5yr
+2017,"Glenn County, California",0500000US06021,46260,5yr
+2017,"Inyo County, California",0500000US06027,51500,5yr
+2017,"Lassen County, California",0500000US06035,54083,5yr
+2017,"Mariposa County, California",0500000US06043,51385,5yr
+2017,"Amador County, California",0500000US06005,60636,5yr
+2017,"Modoc County, California",0500000US06049,39296,5yr
+2017,"Plumas County, California",0500000US06063,50266,5yr
+2017,"San Benito County, California",0500000US06069,80760,5yr
+2017,"Sierra County, California",0500000US06091,44190,5yr
+2017,"Siskiyou County, California",0500000US06093,40884,5yr
+2017,"Tehama County, California",0500000US06103,42512,5yr
+2017,"Trinity County, California",0500000US06105,36563,5yr
+2017,"Tuolumne County, California",0500000US06109,54325,5yr
+2017,"Mono County, California",0500000US06051,60595,5yr
+2017,"Alpine County, California",0500000US06003,63438,5yr
+2016,"Tuolumne County, California",0500000US06109,50731,5yr
+2016,"Trinity County, California",0500000US06105,35270,5yr
+2024,"Trinity County, California",0500000US06105,53002,5yr
+2016,"Alpine County, California",0500000US06003,62375,5yr
+2016,"Amador County, California",0500000US06005,57032,5yr
+2016,"Calaveras County, California",0500000US06009,53502,5yr
+2016,"Colusa County, California",0500000US06011,54946,5yr
+2016,"Del Norte County, California",0500000US06015,42363,5yr
+2016,"Glenn County, California",0500000US06021,41699,5yr
+2016,"Inyo County, California",0500000US06027,47278,5yr
+2016,"Lassen County, California",0500000US06035,51457,5yr
+2016,"Mariposa County, California",0500000US06043,49265,5yr
+2016,"Modoc County, California",0500000US06049,41194,5yr
+2016,"Mono County, California",0500000US06051,58937,5yr
+2016,"Plumas County, California",0500000US06063,50125,5yr
+2016,"San Benito County, California",0500000US06069,73814,5yr
+2016,"Sierra County, California",0500000US06091,43984,5yr
+2016,"Siskiyou County, California",0500000US06093,38524,5yr
+2016,"Tehama County, California",0500000US06103,40687,5yr
+2018,"Alpine County, California",0500000US06003,64688,5yr
+2020,"Lassen County, California",0500000US06035,56971,5yr
+2018,"Amador County, California",0500000US06005,61198,5yr
+2018,"Colusa County, California",0500000US06011,56704,5yr
+2019,"Mariposa County, California",0500000US06043,48820,5yr
+2019,"Modoc County, California",0500000US06049,45507,5yr
+2019,"Mono County, California",0500000US06051,62260,5yr
+2019,"Plumas County, California",0500000US06063,55359,5yr
+2019,"San Benito County, California",0500000US06069,86958,5yr
+2019,"Sierra County, California",0500000US06091,52148,5yr
+2019,"Siskiyou County, California",0500000US06093,45241,5yr
+2019,"Lassen County, California",0500000US06035,56352,5yr
+2019,"Tuolumne County, California",0500000US06109,60108,5yr
+2020,"Alpine County, California",0500000US06003,85750,5yr
+2020,"Amador County, California",0500000US06005,65187,5yr
+2020,"Calaveras County, California",0500000US06009,67054,5yr
+2020,"Colusa County, California",0500000US06011,59427,5yr
+2020,"Del Norte County, California",0500000US06015,49981,5yr
+2020,"Glenn County, California",0500000US06021,51682,5yr
+2019,"Trinity County, California",0500000US06105,40846,5yr
+2019,"Inyo County, California",0500000US06027,57316,5yr
+2019,"Glenn County, California",0500000US06021,49633,5yr
+2019,"Del Norte County, California",0500000US06015,45283,5yr
+2018,"Glenn County, California",0500000US06021,47395,5yr
+2018,"Inyo County, California",0500000US06027,52874,5yr
+2018,"Lassen County, California",0500000US06035,56362,5yr
+2018,"Mariposa County, California",0500000US06043,51199,5yr
+2018,"Modoc County, California",0500000US06049,45149,5yr
+2018,"Mono County, California",0500000US06051,63018,5yr
+2018,"Plumas County, California",0500000US06063,53270,5yr
+2018,"San Benito County, California",0500000US06069,81977,5yr
+2018,"Sierra County, California",0500000US06091,48125,5yr
+2018,"Siskiyou County, California",0500000US06093,44200,5yr
+2018,"Tehama County, California",0500000US06103,42899,5yr
+2018,"Trinity County, California",0500000US06105,38497,5yr
+2018,"Tuolumne County, California",0500000US06109,56493,5yr
+2019,"Alpine County, California",0500000US06003,63750,5yr
+2019,"Amador County, California",0500000US06005,62772,5yr
+2019,"Calaveras County, California",0500000US06009,63158,5yr
+2019,"Colusa County, California",0500000US06011,59401,5yr
+2018,"Calaveras County, California",0500000US06009,58151,5yr
+2024,"Tuolumne County, California",0500000US06109,77404,5yr
