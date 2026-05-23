@@ -191,4 +191,33 @@ Proceed to notebook 03 for exploratory data analysis and regression modeling.
 - Next: complete histogram interpretation markdown, then build distribution 
   plots for outcome variables, correlation matrix, time trends
 
+**Observation regarding limitations** 
+  Furthermore, the use of debt to maintain baseline living standards in 
+high-cost counties may blunt near-term health effects. Residents may 
+sustain adequate nutrition, healthcare access, and housing quality through 
+credit — deferring the health consequences of unaffordability. Given that 
+Premature Death is measured as years of potential life lost before age 75, 
+the true health burden of housing unaffordability may manifest on a 
+generational timescale that a 9-year panel analysis cannot capture.
+This is refered to as latency effects in epidemiology and intergenerational health transmission. 
+Longitudinal cohort studies would be better suited to capture these delayed effects than cross-sectional or short panel data.
+
+
+**2026-05-23**
+- Completed Median Multiple distribution analysis and interpretation
+- Calculated: only 1.2% of county-years fall below affordability threshold (3.0)
+- Identified mode (5.1), documented range restriction and residential sorting 
+  as methodological limitations
+- Built outcome variable distribution histograms (premature death, poor mental 
+  health days, preventable hospitalization rate)
+- Identified trimodal pattern in premature death — suggests distinct geographic 
+  county clusters
+- Investigated outliers for premature death and preventable hospitalization rates
+- Key finding: Trinity and Lake counties dominate high premature death rates; 
+  Marin and San Mateo dominate low rates — confirming wealth/geography confounding
+- Mono County identified as anomaly warranting further investigation
+- Preventable hospitalization rates declined ~50% from 2016-2024
+- Correlation matrix confirmed negative MM-health outcome correlations — 
+  interpreted as wealth confounding, motivates fixed effects approach
+- Next: time trend visualizations, then fixed effects regression
 ---
