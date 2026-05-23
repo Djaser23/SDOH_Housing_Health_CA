@@ -173,4 +173,22 @@
 - Deleted 3 diagnostic cells (LBW check, title case verify, Premature Death check)
 - Next: continue notebook 02 cleanup (ACS, Zillow, merge sections), 
   then begin notebook 03 EDA and analysis
+
+## Notebook 02 — Complete
+
+All three data sources have been cleaned, standardized, and merged into a 
+single analysis-ready panel saved to `data/processed/full_panel.csv`. 
+Proceed to notebook 03 for exploratory data analysis and regression modeling.
+
+**2026-05-22**
+- Began notebook 03 EDA and analysis
+- Loaded full_panel.csv and confirmed integrity (522 rows x 12 columns)
+- Ran descriptive statistics and wrote interpretation markdown
+- Built first visualization: Median Multiple distribution histogram with 
+  Demographia affordability threshold (3.0) marked
+- Key finding: virtually all California county-years fall above the 3.0 
+  affordability threshold — housing unaffordability is near-universal in CA
+- Next: complete histogram interpretation markdown, then build distribution 
+  plots for outcome variables, correlation matrix, time trends
+
 ---
