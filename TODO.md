@@ -220,4 +220,28 @@ Longitudinal cohort studies would be better suited to capture these delayed effe
 - Correlation matrix confirmed negative MM-health outcome correlations — 
   interpreted as wealth confounding, motivates fixed effects approach
 - Next: time trend visualizations, then fixed effects regression
+
+## Future Analysis
+
+- [ ] Investigate political economy of government spending distribution across 
+  California counties. Adverse health outcomes separate along rural/urban lines 
+  that correlate with political orientation. Understanding the actual distribution 
+  of government spending and infrastructure investment — and how communities 
+  perceive versus receive those benefits — may clarify important contextual 
+  factors driving the health patterns observed in this analysis.
+
+  **2026-05-25**
+- Completed EDA documentation — all distribution plots interpreted and written up
+- Completed outlier investigations for all outcome and mediator variables
+- Wrote correlation matrix interpretation — identified wealth confounding
+- Ran three fixed effects (TWFE) regression models:
+  - Premature Death: coef=-148.62, p=0.007 ✓ significant
+  - Poor Mental Health Days: coef=-0.053, p=0.001 ✓ significant  
+  - Preventable Hospitalization Rate: coef=+14.47, p=0.790 ✗ not significant
+- All models show negative/null MM coefficients — discussed competing 
+  explanations: residential sorting, credit buffering, omitted amenity variables,
+  trickle-down effects, generational lag times
+- Identified need for clustered standard errors to improve robustness
+- Next: rerun models with clustered SEs, verify approach against literature,
+  write discussion section, then Tableau dashboard
 ---
