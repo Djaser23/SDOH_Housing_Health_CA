@@ -259,4 +259,19 @@ Longitudinal cohort studies would be better suited to capture these delayed effe
 - Identified multiple comparisons problem as additional caveat on single significant finding
 - Wrote complete discussion section: Summary, Interpretation, Limitations, Future Directions
 - Next: Tableau dashboard — choropleth map of county-level MM and health outcomes with year filter 
+
+**2026-05-28**
+- Reviewed job search status — ~2 weeks since last application
+- Identified resume needs: add SDOH project, reorder sections (projects before 
+  experience), refresh LinkedIn — start new thread for this
+- Built Tableau dashboard: three choropleth maps (Median Multiple, Premature 
+  Death Rate, Children in Poverty) with year filter and descriptive text
+- Resolved county ambiguity issue in Tableau via Edit Locations → set state to California
+- Dashboard framing: descriptive/exploratory, no causal claims, geographic 
+  patterns narrative
+- Added Tableau Public link to README
+- Updated README to v1 complete, corrected analytical plan and notebook descriptions
+- Next: resume update thread, resume applying 5-8 jobs/week with 1-2 direct 
+  outreach messages, SDOH v2 additions (Poor Mental Health Days map, cumulative 
+  exposure variable, extended lag data)
 ---

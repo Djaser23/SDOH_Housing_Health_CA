@@ -1,6 +1,6 @@
 # SDOH_Housing_Health_CA
 
-**Status:** In progress — data loading and inspection phase
+**Status:** Complete - v1
 
 Panel analysis examining whether housing unaffordability predicts population 
 health outcomes across 58 California counties, 2016–2024.
@@ -64,10 +64,9 @@ County-year (58 California counties × 9 years = 522 observations)
 ## Analytical Plan
 
 1. Descriptive statistics and exploratory data analysis
-2. Core panel regression: fixed effects models regressing each health outcome 
+2. Core panel regression: Two way fixed effects models regressing each health outcome 
    on Median Multiple, controlling for county and year fixed effects
-3. Mediation analysis: examining poverty rate and low birth weight as potential 
-   mediators of the housing-health relationship
+3. Lag sweep on Median Multiple and Outcomes 
 4. Visualization: Tableau choropleth dashboard displaying county-level 
    variation in Median Multiple and health outcomes over time
 
@@ -80,8 +79,8 @@ Run notebooks in order:
 1. `01_data_loading_inspection.ipynb` — load and inspect all three data sources
 2. `02_cleaning_merging.ipynb` — clean each source, construct Median Multiple, 
    build analysis-ready panel
-3. `03_analysis.ipynb` — EDA, fixed effects regressions, mediation analysis
-4. `04_visualizations.ipynb` — summary figures and Tableau-ready outputs
+3. `03_analysis.ipynb` — EDA, fixed effects regressions, lag sweep analysis
+
 
 **Dependencies:** see `requirements.txt`
 
@@ -101,6 +100,11 @@ SDOH_Housing_Health_CA/
 │   └── tables/
 ├── README.md
 └── requirements.txt
+
+---
+
+## Dashboard
+Interactive Tableau dashboard: [California Housing Affordability and Population Health](https://public.tableau.com/app/profile/douglas.jaser/viz/SDOH_Housing_Health_CA/CaliforniaHousingAffordabilityandPopulationHealthAGeographicOverview)
 
 ---
 
