@@ -244,4 +244,19 @@ Longitudinal cohort studies would be better suited to capture these delayed effe
 - Identified need for clustered standard errors to improve robustness
 - Next: rerun models with clustered SEs, verify approach against literature,
   write discussion section, then Tableau dashboard
+
+ **2026-05-27**
+- Reran all three contemporaneous TWFE models with clustered standard errors (county level)
+- Premature Death: p=0.264 — lost significance under clustered SEs
+- Poor Mental Health Days: p=0.034 — held up under clustered SEs
+- Preventable Hospitalization: p=0.877 — confirmed non-significant
+- Identified conceptual flaw in contemporaneous specification for Premature Death
+  (acute same-year pathway implausible given chronic disease mechanisms)
+- Built lag column construction loop (mm_lag_1 through mm_lag_7) using groupby/shift
+- Built modular TWFE function run_lagged_model(outcome, lag) with clustered SEs
+- Ran full lag sweep: 3 outcomes × 7 lags = 21 specifications — no significant results
+- Poor Mental Health Days significance disappears at all lag lengths — likely noise
+- Identified multiple comparisons problem as additional caveat on single significant finding
+- Wrote complete discussion section: Summary, Interpretation, Limitations, Future Directions
+- Next: Tableau dashboard — choropleth map of county-level MM and health outcomes with year filter 
 ---
