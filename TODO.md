@@ -274,4 +274,20 @@ Longitudinal cohort studies would be better suited to capture these delayed effe
 - Next: resume update thread, resume applying 5-8 jobs/week with 1-2 direct 
   outreach messages, SDOH v2 additions (Poor Mental Health Days map, cumulative 
   exposure variable, extended lag data)
+
+**2026-05-29**
+  All six notebook issues identified in the 03_analysis.ipynb review have been resolved. Kernel restart confirmed clean top-to-bottom execution. Remaining portfolio work: verify that the updated Limitations, TWFE interpretation, lag rationale, lag results, and executive summary sections are reflected in the published GitHub version. Consider whether the Summary of Findings at the end warrants any further expansion now that the fuller interpretive sections precede it. Quiz on project content is deferred — resume when portfolio push is complete.
+
+  Narrative and technical cleanup for 03_analysis.ipynb
+
+- Add executive summary markdown cell at top of notebook
+- Add Model Selection markdown cell motivating TWFE approach
+- Add combined TWFE results interpretation after three contemporaneous models
+- Add Lagged Model Specification section with allostatic load mechanism
+- Add lag results interpretation with multiple comparisons discussion
+- Fix imports: add statsmodels.formula.api, alias seaborn as sns, remove duplicate seaborn import
+- Remove hardcoded os.chdir path, replace with relative path in pd.read_csv
+- Remove unused os import
+- Add inline comment on clustered SE rank deficiency warning
+- Revise Limitations section for technical precision and narrative flow
 ---
