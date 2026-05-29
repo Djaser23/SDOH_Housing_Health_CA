@@ -11,7 +11,7 @@ health outcomes across 58 California counties, 2016–2024.
 
 Does housing unaffordability, measured by the Median Multiple (median home 
 value divided by median household income), predict worse health outcomes at 
-the county level in California, after controlling for relevant covariates?
+the county level in California, after controlling for county and year fixed effects?
 
 ## Hypothesis
 
@@ -94,10 +94,9 @@ SDOH_Housing_Health_CA/
 │   ├── processed/    # Cleaned individual sources
 │   └── final/        # Merged analysis-ready panel
 ├── notebooks/
-├── src/              # Utility functions
 ├── outputs/
 │   ├── figures/
-│   └── tables/
+│   
 ├── README.md
 └── requirements.txt
 
