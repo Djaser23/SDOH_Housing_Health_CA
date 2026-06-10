@@ -43,20 +43,22 @@ determinant of health.
 
 ## Variables
 
-**Primary Predictor**  
-- Median Multiple: median home value (Zillow ZHVI, calendar year average) 
-  divided by median household income (ACS 5-Year Estimates), computed at the 
-  county-year level
+**Primary Predictor**
 
-**Outcome Variables**  
-- Premature Death (years of potential life lost before age 75 per 100,000 
-  population, age-adjusted)
-- Preventable Hospital Stays (discharges for ambulatory care-sensitive 
-  conditions per 100,000 Medicare enrollees)
-- Poor Mental Health Days (average number of mentally unhealthy days reported 
-  in past 30 days)
+Median Multiple: median home value (Zillow ZHVI, calendar year average) divided by median household income (ACS 5-Year Estimates), computed at the county-year level
 
-**Unit of Analysis**  
+**Outcome Variables**
+
+Premature Death (years of potential life lost before age 75 per 100,000 population, age-adjusted)
+Preventable Hospital Stays (discharges for ambulatory care-sensitive conditions per 100,000 Medicare enrollees)
+Poor Mental Health Days (average number of mentally unhealthy days reported in past 30 days)
+
+**Contextual Variables**
+
+Children in Poverty (percentage of children under age 18 living in poverty)
+Low Birthweight (percentage of births below 2,500 grams)
+
+**Unit of Analysis**
 County-year (58 California counties × 9 years = 522 observations)
 
 ---
@@ -90,15 +92,28 @@ Run notebooks in order:
 
 SDOH_Housing_Health_CA/
 ├── data/
-│   ├── raw/          # Source files, never modified
-│   ├── processed/    # Cleaned individual sources
-│   └── final/        # Merged analysis-ready panel
+│   ├── raw/
+│   │   ├── census_acs/
+│   │   ├── census_acs_5yr/
+│   │   ├── county_health_rankings/
+│   │   ├── may_not_need/
+│   │   └── zillow/
+│   └── processed/
+│       ├── acs_panel.csv
+│       ├── chr_panel.csv
+│       ├── full_panel.csv
+│       └── zillow_panel.csv
 ├── notebooks/
+│   ├── 01_data_loading_inspection.ipynb
+│   ├── 02_cleaning_merging.ipynb
+│   └── 03_analysis.ipynb
 ├── outputs/
-│   ├── figures/
-│   
+│   └── figures/
+│       └── correlation_matrix.png
+├── LICENSE
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── TODO.md
 
 ---
 
