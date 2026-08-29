@@ -34,6 +34,10 @@ determinant of health.
    Income in the Past 12 Months. Washington, DC: U.S. Census Bureau, 2016–2024.  
    https://data.census.gov
 
+   Note: 18 of 58 counties (population under 65,000) use ACS 5-year estimates 
+   in place of 1-year estimates due to Census suppression. See notebook 3, 
+   "Limitations — Income Data Source for Rural Counties," for the full discussion.
+
 3. **Median Home Value (Median Multiple Numerator)**  
    Zillow Research. Zillow Home Value Index (ZHVI): County-Level Middle Tier 
    (Smoothed, Seasonally Adjusted), 2016–2024.  
@@ -119,6 +123,13 @@ SDOH_Housing_Health_CA/
 
 ## Dashboard
 Interactive Tableau dashboard: [California Housing Affordability and Population Health](https://public.tableau.com/app/profile/douglas.jaser/viz/SDOH_Housing_Health_CA/CaliforniaHousingAffordabilityandPopulationHealthAGeographicOverview)
+
+---
+
+## References
+
+Raglin, D. (2022, March 10). Period estimates in the American Community Survey. 
+U.S. Census Bureau. https://www.census.gov/newsroom/blogs/random-samplings/2022/03/period-estimates-american-community-survey.html
 
 ---
 
