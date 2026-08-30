@@ -131,6 +131,15 @@ Interactive Tableau dashboard: [California Housing Affordability and Population 
 Raglin, D. (2022, March 10). Period estimates in the American Community Survey. 
 U.S. Census Bureau. https://www.census.gov/newsroom/blogs/random-samplings/2022/03/period-estimates-american-community-survey.html
 
+Bhat, A. C., Fenelon, A., & Almeida, D. M. (2025). Housing insecurity 
+pathways to physiological and epigenetic manifestations of health among 
+aging adults: A conceptual model. *Frontiers in Public Health, 13*, 
+Article 1485371. https://doi.org/10.3389/fpubh.2025.1485371
+
+Carroll, C. D. (1992). The buffer-stock theory of saving: Some 
+macroeconomic evidence. *Brookings Papers on Economic Activity, 23*(2), 
+61-156. https://doi.org/10.2307/2534582
+
 ---
 
 ## Author
