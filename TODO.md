@@ -1,34 +1,92 @@
 # TODO.md
 
-## Status: In Progress — Data Loading and Inspection Phase
+## Status: In Progress — Data Analysis Phase
 
 ---
 
 ## Active To-Do
 
 **README**
-- [ ] Verify CHR outcome variable definitions match exact column names in source files
-- [ ] Confirm poverty rate and low birth weight are available in CHR files before committing to them as mediators
-- [ ] Add `requirements.txt` once environment is set
+
 
 **Data**
-- [ ] Open and inspect CHR files (2016–2024)
-- [ ] Open and inspect ACS income CSVs
-- [ ] Open and inspect Zillow ZHVI file
-- [ ] Confirm 2020 ACS gap — is it missing entirely or partially available?
+
 
 **Notebook 01**
-- [ ] Build skeleton once initial data inspection is done
+
+**Notebook 03 — Residual Diagnostics (in progress)**
+- [ ] Test whether low-fitted-value counties (fitted < 3.6) in the poor 
+  mental health days model differ from the rest of the dataset on median 
+  income or population density — checking whether affluence/density, 
+  rather than income_source methodology, drives the observed underprediction pattern there
+- [ ] Repeat residual diagnostics (Q-Q, residual vs. fitted, Levene's/Welch's) for the other two models (premature death rate, preventable hospital stays)
 
 ---
 
 ## Completed
 
-*(Items move here when done)*
+**README**
+- [x] Verify CHR outcome variable definitions match exact column names in source files
+- [x] Confirm poverty rate and low birth weight are available in CHR files before committing to them as mediators
+- [x] Add `requirements.txt` once environment is set
 
+**Data**
+- [x] Open and inspect CHR files (2016–2024)
+- [x] Open and inspect ACS income CSVs
+- [x] Open and inspect Zillow ZHVI file
+- [x] Confirm 2020 ACS gap — is it missing entirely or partially available?
+
+**Notebook 01**
+- [x] Build skeleton once initial data inspection is done
 ---
 
 ## Session Notes
+
+**2026-09-02**
+- Wrote and committed interpretation markdown for Q-Q plot, residual vs. 
+  fitted plot, and Levene's/Welch's results (separate commit from diagnostics code)
+- Wrote and committed markdown discussing the low-fitted-value pattern and 
+  proposing wealth/population density as a likely confound over 
+  income_source methodology — explicitly flagged as an untested hypothesis
+- Next: verify wealth/density hypothesis (see Active To-Do), then repeat 
+  full diagnostic process for the other two models
+
+**2026-09-01**
+- Ran residual/Q-Q diagnostics on the poor mental health days model
+- Q-Q plot: minor divergence at tails (below -2, above 2.3 on theoretical 
+  quantiles), majority of points track normal expectation — unremarkable
+- Residual vs. fitted plot colored by income_source (1yr/5yr) — visual 
+  clustering of 5yr points at negative residuals near fitted≈4
+- Tested income_source hypothesis: Levene's test (p=0.743) and Welch's 
+  t-test (p=0.894) both fail to reject — no significant difference in 
+  variance or mean between 1yr/5yr residual groups
+- Discovered separate pattern via visual inspection: rows with fitted < 3.6 
+  show 76.7% positive residuals vs. 49.4% baseline — proportions z-test 
+  p≈0.0000006. Flagged as exploratory (spotted visually before testing), 
+  subject to multiple comparisons caveat
+- Sorted low-fitted counties: disproportionately affluent, coastal/Bay Area 
+  (Santa Clara, San Mateo, Marin, San Francisco, Orange), overwhelmingly 
+  1yr income_source — coincides with but likely not explained by 
+  income_source methodology itself
+- Committed diagnostics code (plots, Levene's/Welch's, proportions z-test) 
+  without interpretation write-up
+- Next: write up interpretation, then investigate affluence/density hypothesis
+
+**2026-05-14**
+- Resolved working directory issue — notebooks run from notebooks/ folder, 
+  requires ../ prefix for all file paths
+- Wrote markdown cells documenting variable selection rationale
+- Confirmed outcome variables: Premature Death (YPLL Rate), Preventable 
+  Hospital Stays (Preventable Hospitalization Rate), Poor Mental Health Days 
+  (Average Number of Mentally Unhealthy Days)
+- Confirmed mediators: Children in Poverty, Low Birthweight
+- Discussed and rejected Life Expectancy as outcome in favor of YPLL
+- Discussed mediation analysis framework — to be implemented after core 
+  regression if time permits
+- Successfully extracted outcome and mediator columns from df_select into 
+  separate dataframes
+- Next: drop state row (FIPS 6000), inspect missingness across outcome 
+  variables, begin loading loop across all years
 
 **2026-05-13**
 - Set up project folder structure
@@ -53,23 +111,6 @@
 - Resolved kernel mismatch (Anaconda vs system Python)
 - Notebook file moved to correct notebooks/ folder
 - Next: update TODO, commit notebook, then begin CHR loading loop across all years
-
-
-**2026-05-14**
-- Resolved working directory issue — notebooks run from notebooks/ folder, 
-  requires ../ prefix for all file paths
-- Wrote markdown cells documenting variable selection rationale
-- Confirmed outcome variables: Premature Death (YPLL Rate), Preventable 
-  Hospital Stays (Preventable Hospitalization Rate), Poor Mental Health Days 
-  (Average Number of Mentally Unhealthy Days)
-- Confirmed mediators: Children in Poverty, Low Birthweight
-- Discussed and rejected Life Expectancy as outcome in favor of YPLL
-- Discussed mediation analysis framework — to be implemented after core 
-  regression if time permits
-- Successfully extracted outcome and mediator columns from df_select into 
-  separate dataframes
-- Next: drop state row (FIPS 6000), inspect missingness across outcome 
-  variables, begin loading loop across all years
 
 
   **Research Questions for Future Analysis**
